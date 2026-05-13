@@ -20,6 +20,4 @@ jobs:
           java-version: 17
 
       - name: Run Maven Tests
-        run: |
-          cd task9.1P
-          mvn clean test
+        run: mvn clean test
